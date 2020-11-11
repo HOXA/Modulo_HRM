@@ -43,7 +43,9 @@ namespace Capa_Vista.Vista_Reportes
             this.crystalReportViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.crystalReportViewer1.Location = new System.Drawing.Point(0, 0);
             this.crystalReportViewer1.Name = "crystalReportViewer1";
-            this.crystalReportViewer1.ReportSource = "C:\\Users\\stmar\\AppData\\Roaming\\ModuloHRM\\ReporteCpacitacion.rpt";
+            string path = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData));
+            string ruta = path + "\\ModuloHRM\\ReporteCpacitacion.rpt";
+            this.crystalReportViewer1.ReportSource = ruta;            
             this.crystalReportViewer1.Size = new System.Drawing.Size(800, 450);
             this.crystalReportViewer1.TabIndex = 0;
             // 

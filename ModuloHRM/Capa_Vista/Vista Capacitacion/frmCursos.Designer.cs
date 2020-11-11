@@ -715,14 +715,14 @@
             this.cmbEncabezado.FormattingEnabled = true;
             this.cmbEncabezado.Location = new System.Drawing.Point(565, 10);
             this.cmbEncabezado.Name = "cmbEncabezado";
-            this.cmbEncabezado.Size = new System.Drawing.Size(216, 24);
+            this.cmbEncabezado.Size = new System.Drawing.Size(202, 24);
             this.cmbEncabezado.TabIndex = 3;
             // 
             // txtBuscador
             // 
-            this.txtBuscador.Location = new System.Drawing.Point(844, 10);
+            this.txtBuscador.Location = new System.Drawing.Point(828, 10);
             this.txtBuscador.Name = "txtBuscador";
-            this.txtBuscador.Size = new System.Drawing.Size(246, 23);
+            this.txtBuscador.Size = new System.Drawing.Size(262, 23);
             this.txtBuscador.TabIndex = 4;
             // 
             // btnBuscarEmp
@@ -738,7 +738,7 @@
             // lblEsft
             // 
             this.lblEsft.AutoSize = true;
-            this.lblEsft.Location = new System.Drawing.Point(787, 13);
+            this.lblEsft.Location = new System.Drawing.Point(773, 13);
             this.lblEsft.Name = "lblEsft";
             this.lblEsft.Size = new System.Drawing.Size(49, 16);
             this.lblEsft.TabIndex = 6;
